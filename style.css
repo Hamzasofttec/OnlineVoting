@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: -0vw;
+    background-color: #000000;
+    background-image: url(bp-miller-8yxnCIwcbqw-unsplash.jpg);
+    padding-left: 500px;
+    background-size: cover;
+}
+
+.container {
+    background-color: #ffffffef;
+    color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width: 350px;
+    /* padding-left: 25px; */
+    margin-top: 35px;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-center a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+#voteGroup{
+    background-color: #000000;
+    color: #f8f9fa;
+}
+#voteGroup:hover{
+background-color: #000000;
+color: #f8f9fa;
+}
+#voteGroup:hover:after{
+    background-color: #ffffff;
+    color: #ffffff;
+    
+    }
+
+.form-group{
+    color: #000000;
+}
+.navbar-brand{
+    padding-left: 60px;
+    background-color: #ffffff;
+   height: 60px;
+padding-right: 60px;
+border-radius: 5px;
+border: #000000;
+text-align: center;
+justify-content: center;
+padding-top: 5px;
+padding-bottom: 30px;
+margin-top: 35px;
+margin-left: -5px;    
+}
+#vote{
+    color: #000000;
+}
+@media (max-width:767px) and (max-width:991px) {
+    .container {
+       margin-left: -400px !important;
+       margin-top: 10px !important;
+    }
+    .navbar-brand{
+        margin-left: -400px !important;
+    }
+}
